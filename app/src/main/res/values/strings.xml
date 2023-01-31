@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DrinksApp</string>
+    <string name="drinks_list_fragment">DRINKS LIST FRAGMENT</string>
+    <string name="drinks_detail_fragment">DRINKS DETAIL FRAGMENT</string>
+    <string name="go_to_details">Go to details</string>
+</resources>
