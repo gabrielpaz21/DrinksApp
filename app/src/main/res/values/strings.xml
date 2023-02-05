@@ -3,4 +3,10 @@
     <string name="drinks_list_fragment">DRINKS LIST FRAGMENT</string>
     <string name="drinks_detail_fragment">DRINKS DETAIL FRAGMENT</string>
     <string name="go_to_details">Go to details</string>
+    <string name="drink_image">Drink image</string>
+    <string name="save_drink">save drink</string>
+    <string name="go_to_favorites">go to favorites</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_of_the_drink">image of the drink</string>
 </resources>

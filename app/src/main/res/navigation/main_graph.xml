@@ -12,11 +12,27 @@
         tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_mainFragment_to_drinksDetailFragment"
-            app:destination="@id/drinksDetailFragment" />
+            app:destination="@id/drinksDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/drinksDetailFragment"
         android:name="com.example.drinksapp.ui.DrinksDetailFragment"
         android:label="Details"
         tools:layout="@layout/fragment_drinks_detail" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.drinksapp.ui.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
 </navigation>

@@ -3,14 +3,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
     tools:context=".ui.DrinksDetailFragment">
 
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/iv_drink"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/drink_image" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_save_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/save_drink"
+        android:src="@drawable/baseline_save_24" />
+
     <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:text="Margarita Blue" />
+
+    <TextView
+        android:id="@+id/tv_has_alcohol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        tools:Text="Drink without alcohol" />
+
+    <TextView
+        android:id="@+id/tv_description"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/drinks_detail_fragment"
-        android:textSize="25sp" />
+        android:layout_marginTop="8dp" />
 
 </LinearLayout>
